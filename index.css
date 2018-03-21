@@ -1,0 +1,56 @@
+.display-4 {
+    background: #2980b9;
+    color: #fff;
+    border-bottom: 10px solid #3498db;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+body {
+    background-color: #e9ecef;
+}
+
+@keyframes cf3FadeInOut {
+    0% {
+        background-image: url(office.jpg);
+    }
+    45% {
+        background-image: url(office2.jpg);
+    }
+    55% {
+        background-image: url(people.jpg);
+    }
+    100% {
+        background-image: url(job.jpeg);
+    }
+}
+
+.jumbotron {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 50vh;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    animation-name: cf3FadeInOut;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+.welcome_banner {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background: #8080807a;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 500;
+}
